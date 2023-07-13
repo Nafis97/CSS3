@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket match</title>
+    <style>
+        .Ball{
+            height: 50px;
+            width: 50px;
+            background-color: brown;
+            border-radius: 50%;
+            position: relative;
+            left: 720px;
+            transition: transform 2s ease-in-out 0.2s;
+        }
+        .field:hover .Ball{
+            transform: translate(700px, -200px)
+        }
+        .Bat{
+
+            transition: transform .2s ease-in-out;
+        }
+        .Bat:hover{
+            transform: rotate(-45deg);
+            transform-origin: 100% 0%;
+        }
+    </style>
+</head>
+<body>
+    <div class="field">
+        <img class="Bat" src="images/cricket-bat.png" alt="">
+        <div class="Ball">
+
+        </div>
+    </div>
+
+</body>
+</html>

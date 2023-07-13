@@ -1,0 +1,19 @@
+.box{
+    width : 400px;
+    height: 200px;
+    border: 5px solid paleturquoise;
+    overflow: scroll;
+}
+.box2{
+    border: 4px solid purple;
+    width:400px;
+    height: 200px;
+}
+.images .blue-whale{
+    height: 150px;
+    width: 150x;
+}
+.images .killer-whale{
+    height: 150px;
+    width: 150x;
+}
